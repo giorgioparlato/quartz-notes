@@ -1,15 +1,19 @@
 ---
 
-title: index
+title: ciao!
  
 ---
----
-title: Home
-id: home
----
 
-### Welcome! 🌱
 
+## about me
+
+Born and raised in Sicily, I wandered around the US and Asia for a while, now I’m living in Stockholm.
+
+My interests are mostly around meditation, sustainability, regenerative agriculture, community, and entrepreneurship, and Complexity.
+
+Other things I love: The Tao Te Ching (translated by Stephen Mitchell), Rob Burbea’s teachings, Chillhop Music, learning new things, changing my mind, facing fears, basketball and beach volleyball, Hokusai paintings.
+
+## this site
 This is my attempt to play and experiment with a digital garden.
 
 Here I'll be sharing some of the notes that I put together in my various explorations. Most of these notes are dynamic and ever-evolving, they also are meant for my personal use on [Obsidian](https://obsidian.md/), so they might not be polished or to be considered as my thoughts (they might often contain contradictory stances as I explore them).
@@ -22,7 +26,7 @@ Below are some rudimentary [[Maps of Content]] (MOCs) that could be fun to explo
 - [[Taoism]]
   - [[Book - Tao Te Ching - Lao Tzu]]
 - [[Planetary Boundaries]]
-- [[Published/other_notes/resilience]]
+- [[resilience]]
 - [[Books]]
 - [[Decision-Making]]
 - [[fear]]

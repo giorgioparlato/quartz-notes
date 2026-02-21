@@ -46,7 +46,7 @@ colors: {
       dark: "#F9F1CB",
       secondary: "#7CA08B",
       tertiary: "#479E74",
-      highlight: "rgba(124, 160, 139, 0.15)",
+      highlight: "rgba(124, 160, 139, 0)",
       textHighlight: "#83656500",
         },
       },

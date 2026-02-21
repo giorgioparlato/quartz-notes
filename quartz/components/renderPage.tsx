@@ -2,14 +2,19 @@ import { render } from "preact-render-to-string"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import HeaderConstructor from "./Header"
 import BodyConstructor from "./Body"
+import DarkmodeConstructor from "./Darkmode"
+import ReaderModeConstructor from "./ReaderMode"
+import SearchConstructor from "./Search"
 import { JSResourceToScriptElement, StaticResources } from "../util/resources"
-import { FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path"
+import { FullSlug, RelativeURL, joinSegments, normalizeHastElement, pathToRoot } from "../util/path"
 import { clone } from "../util/clone"
 import { visit } from "unist-util-visit"
 import { Root, Element, ElementContent } from "hast"
 import { GlobalConfiguration } from "../cfg"
 import { i18n } from "../i18n"
 import { styleText } from "util"
+import ReaderMode from "./ReaderMode"
+import Darkmode from "./Darkmode"
 
 interface RenderComponents {
   head: QuartzComponent
@@ -240,6 +245,9 @@ export function renderPage(
   } = components
   const Header = HeaderConstructor()
   const Body = BodyConstructor()
+  const Darkmode = DarkmodeConstructor()
+const ReaderMode = ReaderModeConstructor()
+const Search = SearchConstructor()
 
   const LeftComponent = (
     <div class="left sidebar">
@@ -263,7 +271,18 @@ export function renderPage(
     <html lang={lang} dir={direction}>
       <Head {...componentData} />
       <body data-slug={slug}>
-        <div id="quartz-root" class="page">
+        <nav class="site-navbar">
+          <div class="navbar-left">
+            <a href="/">giorgio's notes</a>
+          </div>
+          <div class="navbar-right">
+            <a href="/_my_writing">writing</a>
+                <Search {...componentData} />
+                <Darkmode {...componentData} />
+               <ReaderMode {...componentData} />
+          </div>
+        </nav>
+  <div id="quartz-root" class="page">
           <Body {...componentData}>
             {LeftComponent}
             <div class="center">

@@ -1,18 +1,97 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ============================================================
+// TYPOGRAPHY
+// ============================================================
+
 h1, h2, h3, h4, h5, h6, .PageTitle {
   font-weight: 300;
 }
+
+.page-title, .page-title a {
+  font-weight: 300;
+}
+
+.folder-container div > a {
+  font-weight: 300;
+}
+
+.center {
+  font-size: 1.2rem;
+}
+
+// ============================================================
+// NAVBAR
+// ============================================================
+
+.site-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 20%;
+  border-bottom: 1px solid var(--secondary);
+  box-sizing: border-box;
+}
+
+.site-navbar a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-family: var(--TitleFont);
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.site-navbar a:hover {
+  color: var(--tertiary);
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+// ============================================================
+// ICONS
+// ============================================================
+
+.darkmode svg path,
+.darkmode svg circle {
+  fill: var(--secondary);
+  stroke: var(--secondary);
+}
+
+.readermode svg path,
+.readermode svg circle {
+  fill: var(--secondary);
+  stroke: var(--secondary);
+}
+
+// ============================================================
+// LAYOUT
+// ============================================================
+
+.center {
+  max-width: 1000px;
+}
+
+.page > #quartz-body .page-header {
+  margin: 0;
+}
+
+// ============================================================
+// HOMEPAGE
+// ============================================================
 
 body[data-slug="index"] .explorer {
   display: none;
 }
 
+// ============================================================
+// MISC
+// ============================================================
+
 .textHighlight {
   background-color: transparent;
-}
-
-.center {
-  max-width: 1000px;
 }
