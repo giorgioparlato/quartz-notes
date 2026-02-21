@@ -29,7 +29,7 @@ The gateway to all understanding
 -------------------
 
 1: [[Truth is never expressed in words]]
-2: [[the map is not the territory - misplaced concreteness -]]
+2: [[the map is not the territory]]
 
 -------------------
 

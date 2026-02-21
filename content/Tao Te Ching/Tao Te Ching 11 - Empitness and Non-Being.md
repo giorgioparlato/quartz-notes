@@ -63,4 +63,4 @@ Therefore, that which exists is used to create benefit
 That which is empty is used to create functionality [[Derek Lin]]
 
 -------------------
-Related: [[Emptiness]]
+Related: [[emptiness]]

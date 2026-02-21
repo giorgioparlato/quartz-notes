@@ -28,7 +28,7 @@ this is the essence of wisdom.
 
 -------------------
 1: [[Truth is never expressed in words]] 
-2: [[Emptiness]]
+2: [[emptiness]]
 
 Related poems:
 - [[Tao Te Ching 1 - The tao that can be told is not the eternal Tao]]

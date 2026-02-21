@@ -1,3 +1,18 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+h1, h2, h3, h4, h5, h6, .PageTitle {
+  font-weight: 300;
+}
+
+body[data-slug="index"] .explorer {
+  display: none;
+}
+
+.textHighlight {
+  background-color: transparent;
+}
+
+.center {
+  max-width: 1000px;
+}

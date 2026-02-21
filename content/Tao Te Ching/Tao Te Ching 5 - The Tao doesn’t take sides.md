@@ -33,4 +33,4 @@ Stephen Addiss & Stanley Lombardo
 
 -------------------
 
-Related: [[Emptiness]] | [[Yin Yang]]
+Related: [[emptiness]] | [[Yin Yang]]
