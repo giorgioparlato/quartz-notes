@@ -99,6 +99,11 @@ h1, h2, h3, h4, h5, h6, .PageTitle {
   max-width: 1000px;
 }
 
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
 .page > #quartz-body .page-header {
   margin: 0;
 }
@@ -124,6 +129,12 @@ h1, h2, h3, h4, h5, h6, .PageTitle {
   .page > #quartz-body .sidebar.right .flex-component {
     display: none !important;
   }
+
+  @media (max-width: 768px) {
+  .explorer button.mobile-explorer {
+    display: none !important;
+  }
+}
 
 }
 
