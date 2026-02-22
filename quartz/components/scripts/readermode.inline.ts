@@ -8,6 +8,8 @@ const emitReaderModeChangeEvent = (mode: "on" | "off") => {
 }
 
 document.addEventListener("nav", () => {
+  isReaderMode = window.matchMedia("(max-width: 768px)").matches
+
   const switchReaderMode = () => {
     isReaderMode = !isReaderMode
     const newMode = isReaderMode ? "on" : "off"
