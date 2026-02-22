@@ -1,9 +1,10 @@
 ---
 
-title: ciao!
+title: g's notes
  
 ---
 
+# Ciao!
 
 ## about me
 
